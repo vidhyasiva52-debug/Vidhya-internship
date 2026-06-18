@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Block vs Inline Elements</title>
+</head>
+<body>
+    <h2>Block Elements (div)</h2>
+    <div style="border:1px solid blue;">Div Element 1</div>
+    <div style="border:1px solid blue;">Div Element 2</div>
+    <div style="border:1px solid blue;">Div Element 3</div>
+    <h2>Inline Elements (span)</h2>
+    <span style="border:1px solid blue;">Span 1</span>
+    <span style="border:1px solid blue;">Span 2</span>
+    <span style="border:1px solid blue;">Span 3</span>
+    <h2>Observations</h2>
+    <p>
+        1. div is a block-level element. Each div starts on a new line .
+    </p>
+    <p>
+        2. span is an inline element. Multiple span elements appear on the same line.
+    </p>
+    <p>
+        3. div is mainly used for creating sections or layouts.
+    </p>
+    <p>
+        4. span is mainly used for styling or grouping small portions of text.
+    </p>
+</body>
+</html>
