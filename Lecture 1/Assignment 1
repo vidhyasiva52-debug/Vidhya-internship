@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <style>
+        body {
+            background-color: #f4f7f6;
+            p{color:Blue;}
+        }
+    </style>
+</head>
+<body>
+            <p>Hi, Myself Vidhya, I am from ooty and I am currently pursing BCA in Tips Global Instute. I love to play Shettle and I am intrested to work on programming to improve my skills.My aim is to work on IT and I hope i will do my best hardworking fpr my future.</p>
+              
+</body>
+</html>
 
