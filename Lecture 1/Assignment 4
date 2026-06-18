@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        skill {
+            
+            background: #3498db;
+            
+            margin: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume">
+
+    <div class="header">
+        <h1>Vidhya S</h1>
+        <p>Email: vidhyasiva52@gmail.com</p>
+        <p>Phone: 744907093</p>
+        <p>Address: Beragal Village, Thuneri Post</p>
+    </div>
+
+    <div class="section">
+        <h2>Career Objective</h2>
+        <p>
+            To seek a position in a company that can launch my career and help me to build a stronger skill set.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Bachelor's Degree</strong> Tips Global Instute(2024-2027)</li>
+            <li><strong>Higher Secondary</strong> - Sathya Sai Matric school (2023 - 2024)</li>
+            <li><strong>SSLC</strong> - Sathya Sai Matric School (2021 - 2022)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <span class="skill">HtML</span>
+        <span class="skill">Java</span>
+        <span class="skill">Python</span>
+        
+    </div>
+
+    
+
+    <div class="section">
+        <h2>Achievements</h2>
+        <ul>
+            <li>State Level Shettle player</li>
+            
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Languages Known</h2>
+        <ul>
+            <li>English</li>
+            <li>Tamil</li>
+           
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Declaration</h2>
+        <p>
+            I hereby declare that the information provided above is true to the best of my knowledge.
+        </p>
+    </div>
+</div>
+</body>
+</html>
