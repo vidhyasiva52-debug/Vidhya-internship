@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+
+            background-image: url("https://pngtree.com/freebackground/soft-pastel-floral-design-light-blue-background_16257054.html");
+            background-size: cover;
+            background-repeat: no-repeat;    
+        }
+        }
+        h1 {
+            color: navy;
+        }
+        h2 {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vidhya</h1>
+    <p><b>Email:</b> vidhyasiva52@gmail.com</p>
+    <p><b>Phone:</b> 9360554297</p>
+    <h2>Career Objective</h2>
+    <p>
+      To seek a position in a company that can launch my career and help me to build a stronger skill set.
+      <div class="section">
+        <h2>Education</h2>
+        <ul>
+            <li>BCA – Tips global Instute (2024–2027)</li>
+            <li>Higher Secondary – Sathya Sai matric School (2023–2024)</li>
+            <li>SSLC – Sathya Sai Matric School (2021-2022)</li>
+        </ul>   
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>Java</li>
+        <li>Python</li>
+    </ul>
+    <h2>Contact Information</h2>
+    <p><b>Address:</b> Ooty, Tamil Nadu</p>
+    <p><b>Email:</b> vidhyasiva52@gmail.com</p>
+        <p><b>Phone:</b> 9360554297</p>
+    <div class="section">
+        <h2>Achievements</h2>
+        <ul>
+            <li>State level Shettle Player</li>            
+        </ul>
+    </div>
+     <div class="section">
+        <h2>Declaration</h2>
+        <p>
+            I hereby declare that the information provided above is true and  correct to the best of my knowledge.
+        </p>
+    </div>
+</body>
+</html>
