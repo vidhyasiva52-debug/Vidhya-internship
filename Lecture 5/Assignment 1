@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Restaurant Menu</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+
+body{
+    background:Red;
+    align-items:center;
+    min-height:100vh;
+}
+
+.menu-container{
+    width:800px;
+    background:white;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+.category{
+    margin-top:25px;
+}
+
+.category h2{
+    color:#333;
+    border-bottom:2px solid #ff5e62;
+    padding-bottom:5px;
+    margin-bottom:15px;
+}
+
+.menu-item{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 0;
+    border-bottom:1px dashed #ccc;
+}
+
+.item-name{
+    font-weight:bold;
+}
+
+.price{
+    color:#ff5e62;
+    font-weight:bold;
+}
+
+.footer{
+    text-align:center;
+    margin-top:25px;
+    color:#666;
+}
+</style>
+</head>
+<body>
+
+<div class="menu-container">
+
+    <h1>Sharvik Restaurant Menu</h1>
+
+    <div class="category">
+        <h2>Starters</h2>
+
+        <div class="menu-item">
+            <span class="item-name">Non Veg Spring Roll</span>
+            <span class="price">₹120</span>
+        </div>
+
+        <div class="menu-item">
+            <span class="item-name">Paneer Tikka</span>
+            <span class="price">₹180</span>
+        </div>
+
+        <div class="menu-item">
+            <span class="item-name">Chicken chilly</span>
+            <span class="price">₹220</span>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Main Course</h2>
+
+        <div class="menu-item">
+            <span class="item-name">Butter Naan</span>
+            <span class="price">₹40</span>
+        </div>
+
+        <div class="menu-item">
+            <span class="item-name">Paneer Butter Masala</span>
+            <span class="price">₹250</span>
+        </div>
+
+        <div class="menu-item">
+            <span class="item-name">Chicken Biryani</span>
+            <span class="price">₹280</span>
+        </div>
+    </div>
+
+    <div class="category">
+        <h2>Desserts</h2>
+
+        <div class="menu-item">
+            <span class="item-name">Ice Cream</span>
+            <span class="price">₹90</span>
+        </div>
+
+        <div class="menu-item">
+            <span class="item-name">Gulab Jamun</span>
+            <span class="price">₹80</span>
+        </div>
+</div>
+</body>
+</html>
+</html>
+
