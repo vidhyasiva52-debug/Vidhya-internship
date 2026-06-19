@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Resume</title>
 
+<style>
+    * {
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background:white;
+        padding: 20px;
+    }
+    .resume {
+        max-width: 900px;
+        margin: auto;
+        background: white;
+        display: flex;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .left {
+        width: 35%;
+        background: #2c3e50;
+        color: white;
+        padding: 25px;
+    }
+    .name {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .section {
+        margin-top: 25px;
+    }
+
+    .right {
+        width: 65%;
+        padding: 30px;
+    }
+
+    .right h2 {
+        color: #2c3e50;
+        margin-bottom: 10px;
+    }
+
+    .right p {
+        margin-bottom: 15px;
+        line-height: 1.7;
+    }
+
+    .job {
+        margin-bottom: 20px;
+    }
+
+    .job h4 {
+        color: #34495e;
+    }
+
+    audio {
+        width: 100%;
+        margin-top: 10px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="resume">
+    <div class="left">
+
+        <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+
+        <h2 class="name">Vidhya</h2>      
+        <div class="section">
+            <h3>Contact</h3>
+            <p>vidhyasiva52@gmail.com</p>
+            <p>7449070936</p>
+        </div>
+
+        <div class="section">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>Java</li>
+                <li>Python</li>                
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Audio Introduction</h3>
+            <audio controls>
+                <source src="intro.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+    </div>
+
+    <div class="right">
+        <h2>Objective</h2>
+        <p>
+            To seek a position in a company that can launch my career and help me to build a stronger skill set.
+        </p>
+    <h2>Education</h2>
+        <p>
+            Bachelor of Computer Application (BCA)<br>
+            HSC - Sathya Sai Matric School
+            SSLC - Sathya Sai Matric School
+          </p>
+          <h2>Declaration</h2>
+        <p>
+            I hereby declare that all the information given above is true to my knowledge.
+        </p>
+    </div>
+
+</div>
+</body>
+</html>
+</body>
+</html>
