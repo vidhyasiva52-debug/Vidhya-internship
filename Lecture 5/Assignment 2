@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TIPS College</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+
+header{
+    background:Red;
+    color:white;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav a{
+    color:white;
+}
+
+
+.hero{
+    height:90vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1500&q=80');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#ffd700;
+    color:#003366;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:5px;
+}
+section{
+    padding:60px 80px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#003366;
+}
+
+/* Courses */
+.course-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.course-card h3{
+    color:#003366;
+    margin-bottom:10px;
+}
+
+/* Contact */
+.contact{
+    background:#003366;
+    color:white;
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+/* Footer */
+footer{
+    background:#001f3f;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">TIPS GLOBAL College</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Welcome to TIPS GLOBAL College</h1>
+        <a href="#" class="btn">Apply Now</a>
+    </div>
+</section>
+</body>
+</html>
+
