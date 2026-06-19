@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>NetFlix Landing Page</title>
+
+<style>
+
+
+body{
+    background:#000;
+    color:#fff;
+}
+
+.hero{
+    height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1500&q=80');
+    background-size:cover;
+    background-position:center;
+}
+
+
+
+.logo{
+    font-size:40px;
+    font-weight:bold;
+    color:#e50914;
+}
+
+.signin-btn{
+    background:#e50914;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.content{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height:80vh;
+    padding:20px;
+}
+.email-box{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+}
+
+.email-box input{
+    padding:15px;
+    width:350px;
+    border:none;
+    border-radius:4px;
+}
+
+.email-box button{
+    padding:15px 25px;
+    background:#e50914;
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <nav class="navbar">
+        <div class="logo">NETFLIX</div>
+        <button class="signin-btn">Sign In</button>
+    </nav>
+
+    <div class="content">
+        <h1>Unlimited Movies, TV Shows and More</h1>
+        <div class="email-box">
+            <input type="email" placeholder="Email Address">
+            <button>Get Started ></button>
+        </div>
+    </div>
+</section>
+
+<section class="movies">
+    <h2>Trending Now</h2>
+
+    <div class="movie-row">
+
+        <div class="card">
+            <img src="https://picsum.photos/220/320?random=1" alt="">
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/220/320?random=4" alt="">
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/220/320?random=5" alt="">
+        </div>
+
+    </div>
+</section>
+</body>
+</html>
+
