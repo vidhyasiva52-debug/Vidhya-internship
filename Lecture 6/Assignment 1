@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TechNova Landing Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0b1020;
+    color:white;
+    overflow-x:hidden;
+}
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#00d4ff;
+}
+.btn{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(45deg,#00d4ff,#6a5cff);
+    color:white;
+    cursor:pointer;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:120px 8%;
+}
+
+.hero-text h1{
+    font-size:4rem;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+
+.hero-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.circle{
+    width:400px;
+    height:400px;
+    background:linear-gradient(135deg,#00d4ff,#6a5cff);
+    border-radius:50%;
+    filter:blur(20px);
+    opacity:.8;
+}
+
+/* Features */
+.features{
+    padding:100px 8%;
+    text-align:center;
+}
+
+.section-title{
+    font-size:2.5rem;
+    margin-bottom:50px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#141c35;
+    padding:30px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    border:1px solid #00d4ff;
+}
+
+.card h3{
+    margin:20px 0;
+}
+
+.icon{
+    font-size:50px;
+}
+
+.about{
+    display:flex;
+    align-items:center;
+    gap:60px;
+    padding:100px 8%;
+}
+
+.about-box{
+    flex:1;
+    background:#141c35;
+    padding:40px;
+    border-radius:20px;
+}
+
+.about-text{
+    flex:1;
+}
+
+.about-text h2{
+    font-size:2.5rem;
+    margin-bottom:20px;
+}
+
+.about-text p{
+    color:#cfd4e0;
+    line-height:1.8;
+}
+
+/* CTA */
+.cta{
+    text-align:center;
+    padding:100px 8%;
+    background:linear-gradient(135deg,#00d4ff,#6a5cff);
+}
+
+.cta h2{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.cta p{
+    margin-bottom:30px;
+}
+
+/* Footer */
+footer{
+    background:#050913;
+    text-align:center;
+    padding:25px;
+    color:#888;
+}
+
+@media(max-width:768px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:2.8rem;
+}
+
+.about{
+    flex-direction:column;
+}
+
+.circle{
+    width:280px;
+    height:280px;
+}
+}
+</style>
+</head>
+<body>
+<nav>
+    <div class="logo">TechNova</div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <button class="btn">Get Started</button>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+
+    <div class="hero-text">
+        <h1>Innovate With <span>TechNova</span></h1>
+
+        <p>
+            Empowering businesses with cutting-edge technology,
+            AI-driven solutions, and scalable digital innovation
+            for the future.
+        </p>
+
+        <button class="btn">Explore Platform</button>
+    </div>
+
+    <div class="hero-image">
+        <div class="circle"></div>
+    </div>
+
+</section>
+
+<!-- Features -->
+<section class="features">
+
+    <h2 class="section-title">Our Features</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🚀</div>
+            <h3>Fast Performance</h3>
+            <p>Lightning-fast cloud infrastructure for modern applications.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🤖</div>
+            <h3>AI Integration</h3>
+            <p>Smart automation powered by advanced artificial intelligence.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔒</div>
+            <h3>Secure Systems</h3>
+            <p>Enterprise-grade security protecting your digital assets.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- About -->
+<section class="about">
+
+    <div class="about-box">
+        <h3>95%</h3>
+        <p>Customer Satisfaction</p>
+        <br>
+        <h3>500+</h3>
+        <p>Projects Delivered</p>
+    </div>
+
+    <div class="about-text">
+        <h2>Building Tomorrow's Technology Today</h2>
+
+        <p>
+            TechNova helps startups and enterprises accelerate growth
+            through innovative software, cloud computing, AI solutions,
+            and digital transformation strategies.
+        </p>
+    </div>
+
+</section>
+
+<!-- CTA -->
+<section class="cta">
+
+    <h2>Ready To Transform Your Business?</h2>
+
+    <p>
+        Join thousands of companies using TechNova to scale faster.
+    </p>
+
+    <button class="btn" style="background:white;color:#333;">
+        Start Free Trial
+    </button>
+
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 TechNova. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
