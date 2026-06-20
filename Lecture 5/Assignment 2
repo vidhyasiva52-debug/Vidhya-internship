@@ -11,7 +11,6 @@
     font-family:Arial, sans-serif;
 }
 
-
 header{
     background:Red;
     color:white;
@@ -23,8 +22,6 @@ header{
 nav a{
     color:white;
 }
-
-
 .hero{
     height:90vh;
     background:
@@ -57,8 +54,6 @@ h2{
     margin-bottom:30px;
     color:#003366;
 }
-
-/* Courses */
 .course-container{
     display:flex;
     justify-content:center;
@@ -71,7 +66,6 @@ h2{
     margin-bottom:10px;
 }
 
-/* Contact */
 .contact{
     background:#003366;
     color:white;
@@ -82,7 +76,6 @@ h2{
     margin:10px 0;
 }
 
-/* Footer */
 footer{
     background:#001f3f;
     color:white;
@@ -91,12 +84,10 @@ footer{
 }
 </style>
 </head>
-
 <body>
 
 <header>
     <div class="logo">TIPS GLOBAL College</div>
-
     <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
