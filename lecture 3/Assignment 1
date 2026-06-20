@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 <title>Explore Ooty</title>
-
 <style>
 *{
     margin:0;
@@ -36,7 +35,6 @@ nav a{
     margin-left:20px;
     font-size:18px;
 }
-
 .hero{
     text-align:center;
     margin-top:150px;
@@ -85,13 +83,11 @@ nav a{
 }
 </style>
 </head>
-
 <body>
 <div class="overlay">
 
 <header>
     <div class="logo">Explore Ooty</div>
-
     <nav>
         <a href="#">Home</a>
         <a href="#">Places</a>
@@ -107,7 +103,6 @@ nav a{
 </section>
 
 <section class="places">
-
     <div class="card">
         <h3>Ooty Lake</h3>
         <p>Enjoy boating and scenic views surrounded by lush greenery.</p>
@@ -122,7 +117,6 @@ nav a{
         <h3>Botanical Garden</h3>
         <p>Explore exotic plants, flowers, and beautiful landscapes.</p>
     </div>
-
 </section>
 </div>
 </body>
