@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
 <title>NetFlix Landing Page</title>
-
 <style>
-
-
 body{
     background:#000;
     color:#fff;
@@ -19,15 +16,11 @@ body{
     background-size:cover;
     background-position:center;
 }
-
-
-
 .logo{
     font-size:40px;
     font-weight:bold;
     color:#e50914;
 }
-
 .signin-btn{
     background:#e50914;
     color:white;
@@ -69,13 +62,9 @@ body{
     font-size:18px;
 }
 
-
-
 </style>
 </head>
-
 <body>
-
 <section class="hero">
     <nav class="navbar">
         <div class="logo">NETFLIX</div>
@@ -93,9 +82,7 @@ body{
 
 <section class="movies">
     <h2>Trending Now</h2>
-
     <div class="movie-row">
-
         <div class="card">
             <img src="https://picsum.photos/220/320?random=1" alt="">
         </div>
