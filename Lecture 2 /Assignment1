@@ -58,21 +58,16 @@
     .job h4 {
         color: #34495e;
     }
-
     audio {
         width: 100%;
         margin-top: 10px;
     }
 </style>
 </head>
-
 <body>
-
 <div class="resume">
     <div class="left">
-
         <img src="profile.jpg" alt="Profile Photo" class="profile-img">
-
         <h2 class="name">Vidhya</h2>      
         <div class="section">
             <h3>Contact</h3>
