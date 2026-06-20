@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Product Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Amazon</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products...">
+            <button>Search</button>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Orders</a>
+            <a href="#">Cart</a>
+        </div>
+    </nav>
+    <div class="categories">
+        <a href="#">Electronics</a>
+        <a href="#">Books</a>
+        <a href="#">Sports</a>
+    </div>
+    <section class="products">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=200" alt="Wireless Headphones">
+            <h3>Wireless Headphones</h3>
+            <p>₹1,999</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=200" alt="Baby hug walker">
+            <h3>Smart Watch</h3>
+            <p>₹2,499</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1589003077984-894e133dabab?w=200" alt="Bluetooth Speaker">
+            <h3>Bluetooth Speaker</h3>
+            <p>₹1,299</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=200" alt="Laptop Bag">
+            <h3>Back case for google pixel</h3>
+            <p>₹899</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1527814050087-3793815479db?w=200" alt="Gaming Mouse">
+            <h3>Keyboard</h3>
+            <p>₹799</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=200" alt="Keyboard">
+            <h3>Shoe rack</h3>
+            <p>₹1,099</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1601593346740-925612772716?w=200" alt="Mobile Cover">
+            <h3>teether</h3>
+            <p>₹299</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=200" alt="Power Bank">
+            <h3>Laptop</h3>
+            <p>₹1,499</p>
+            <button>Buy Now</button>
+        </div>
+           
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=200" alt="Running Shoes">
+            <h3>Running Shoes</h3>
+            <p>₹2,999</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=200" alt="Track Pants">
+            <h3>Face Wash</h3>
+            <p>₹249</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=200" alt="water sheet">
+            <h3>Sunglasses</h3>
+            <p>₹699</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1514228742587-6b1558fcf93a?w=200" alt="Sofa cover">
+            <h3>Coffee Mug</h3>
+            <p>₹349</p>
+            <button>Buy Now</button>
+        </div>
+    </section>
+</body>
+</html>
