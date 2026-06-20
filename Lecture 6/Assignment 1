@@ -65,7 +65,6 @@ body{
     opacity:.8;
 }
 
-/* Features */
 .features{
     padding:100px 8%;
     text-align:center;
@@ -130,7 +129,6 @@ body{
     line-height:1.8;
 }
 
-/* CTA */
 .cta{
     text-align:center;
     padding:100px 8%;
@@ -146,7 +144,6 @@ body{
     margin-bottom:30px;
 }
 
-/* Footer */
 footer{
     background:#050913;
     text-align:center;
@@ -155,7 +152,6 @@ footer{
 }
 
 @media(max-width:768px){
-
 .hero{
     flex-direction:column;
     text-align:center;
@@ -173,13 +169,12 @@ footer{
     width:280px;
     height:280px;
 }
-}
+
 </style>
 </head>
 <body>
 <nav>
     <div class="logo">TechNova</div>
-
     <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Features</a></li>
@@ -190,12 +185,9 @@ footer{
     <button class="btn">Get Started</button>
 </nav>
 
-<!-- Hero -->
 <section class="hero">
-
     <div class="hero-text">
         <h1>Innovate With <span>TechNova</span></h1>
-
         <p>
             Empowering businesses with cutting-edge technology,
             AI-driven solutions, and scalable digital innovation
@@ -208,14 +200,10 @@ footer{
     <div class="hero-image">
         <div class="circle"></div>
     </div>
-
 </section>
 
-<!-- Features -->
 <section class="features">
-
     <h2 class="section-title">Our Features</h2>
-
     <div class="cards">
 
         <div class="card">
@@ -235,14 +223,11 @@ footer{
             <h3>Secure Systems</h3>
             <p>Enterprise-grade security protecting your digital assets.</p>
         </div>
-
     </div>
 
 </section>
 
-<!-- About -->
 <section class="about">
-
     <div class="about-box">
         <h3>95%</h3>
         <p>Customer Satisfaction</p>
@@ -253,7 +238,6 @@ footer{
 
     <div class="about-text">
         <h2>Building Tomorrow's Technology Today</h2>
-
         <p>
             TechNova helps startups and enterprises accelerate growth
             through innovative software, cloud computing, AI solutions,
@@ -263,25 +247,18 @@ footer{
 
 </section>
 
-<!-- CTA -->
 <section class="cta">
-
     <h2>Ready To Transform Your Business?</h2>
-
     <p>
         Join thousands of companies using TechNova to scale faster.
     </p>
-
     <button class="btn" style="background:white;color:#333;">
         Start Free Trial
     </button>
-
 </section>
 
-<!-- Footer -->
 <footer>
     <p>© 2026 TechNova. All Rights Reserved.</p>
 </footer>
-
 </body>
 </html>
