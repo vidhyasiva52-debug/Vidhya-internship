@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Synopsis - Complaint Management Portal</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #18bc9c;
+            --bg-light: #f8f9fa;
+            --text-dark: #333333;
+            --text-muted: #7f8c8d;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
+            display: flex;
+        }
+        nav {
+            width: 280px;
+            background-color: var(--primary-color);
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            overflow-y: auto;
+            padding: 20px 10px;
+        }
+
+        nav h1 {
+            color: #ffffff;
+            font-size: 1.2rem;
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        nav a {
+            display: block;
+            color: #ecf0f1;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: var(--secondary-color);
+            color: white;
+            padding-left: 25px;
+        }
+        main {
+            margin-left: 280px;
+            padding: 40px;
+            width: calc(100% - 280px);
+            max-width: 1200px;
+        }
+
+        header {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            border-left: 5px solid var(--secondary-color);
+        }
+
+        header h2 {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+        section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px;
+            scroll-margin-top: 20px;
+        }
+
+        section h3 {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 8px;
+        }
+
+        .flow-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .flow-step {
+            background-color: var(--bg-light);
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            border: 1px solid var(--border-color);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: var(--bg-light);
+            color: var(--primary-color);
+        }
+        .timeline {
+            list-style: none;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background-color: var(--border-color);
+        }
+
+        .timeline li {
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .timeline li::before {
+            content: '';
+            position: absolute;
+            left: -24px;
+            top: 6px;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background-color: var(--secondary-color);
+        }
+
+        .timeline strong {
+            color: var(--primary-color);
+        }
+        .grid-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            list-style-type: none;
+            margin-top: 15px;
+        }
+
+        .grid-list li {
+            background: var(--bg-light);
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 3px solid var(--primary-color);
+        }
+        @media (max-width: 768px) {
+            body {
+                flex-direction: column;
+            }
+            nav {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            main {
+                margin-left: 0;
+                width: 100%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1>Synopsis Menu</h1>
+        <a href="#problem">Problem Statement</a>
+        <a href="#objectives">Objective & Scope</a>
+        <a href="#methodology">Methodology</a>
+        <a href="#process">Process Description</a>
+        <a href="#requirements">Requirements</a>
+        <a href="#limitations">Resources & Limits</a>
+        <a href="#future">Future Work</a>
+        <a href="#schedule">Project Schedule</a>
+        <a href="#conclusion">Conclusion</a>
+    </nav>
+    <main>
+        <header>
+            <h2>Complaint Management Portal</h2>
+            <p>Project Synopsis & System Architecture Overview</p>
+        </header>
+
+        <section id="problem">
+            <h3>2 & 3. Problem Statement & Description</h3>
+            <p>Citizens and customers often face severe difficulties in registering, tracking, and resolving complaints efficiently. Manual complaint handling systems intrinsically result in operational delays, a critical lack of transparency, and poor service quality.</p>
+            <br>
+            <p><strong>The Solution:</strong> The proposed system provides a centralized online platform where users can seamlessly submit complaints, upload supporting documents, track real-time resolution status, and receive automated notifications. Concurrently, departments can manage, assign, and resolve incoming complaints through an optimized, dedicated dashboard.</p>
+        </section>
+
+        <section id="objectives">
+            <h3>4. Objective and Scope</h3>
+            <p><strong>Core Objectives:</strong></p>
+            <ul style="margin-left: 20px; margin-top: 10px;">
+                <li>Develop a secure web-based complaint submission and tracking portal.</li>
+                <li>Automate target complaint routing to reduce human processing errors.</li>
+                <li>Improve system transparency and overall accountability.</li>
+                <li>Provide data-driven analytics for administrative review.</li>
+            </ul>
+            <br>
+            <p><strong>Target Scope:</strong> Applicable for deployment across government departments, municipalities, educational institutions, and corporate organizations.</p>
+        </section>
+
+        <section id="methodology">
+            <h3>5. Methodology</h3>
+            <p>The project follows a linear, systematic engineering approach:</p>
+            <div class="flow-container">
+                <span class="flow-step">Requirement Analysis</span> &rarr;
+                <span class="flow-step">System Design</span> &rarr;
+                <span class="flow-step">Database Design</span> &rarr;
+                <span class="flow-step">Frontend Development</span> &rarr;
+                <span class="flow-step">Backend Development</span> &rarr;
+                <span class="flow-step">Testing</span> &rarr;
+                <span class="flow-step">Deployment</span> &rarr;
+                <span class="flow-step">Maintenance</span>
+            </div>
+            <br>
+            <p><strong>Primary Use Case:</strong> User submits complaint &rarr; System routes it to the designated department &rarr; Department processes and resolves complaint &rarr; User provides dynamic performance feedback.</p>
+        </section>
+
+        <section id="process">
+            <h3>6. Process Description (Data Flow)</h3>
+            <p>The standard user journey and internal system workflow follow this lifecycle:</p>
+            <div class="flow-container">
+                <span class="flow-step">1. User Registration/Login</span>
+                <span class="flow-step">2. Complaint Submission</span>
+                <span class="flow-step">3. Auto Routing</span>
+                <span class="flow-step">4. Department Processing</span>
+                <span class="flow-step">5. Status Updates</span>
+                <span class="flow-step">6. Resolution</span>
+                <span class="flow-step">7. Feedback Collection</span>
+            </div>
+        </section>
+
+        <section id="requirements">
+            <h3>7. Hardware & Software Requirements</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Requirement Type</th>
+                        <th>Specifications</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Hardware</strong></td>
+                        <td>Intel Core i3 processor or above, 4GB RAM minimum, 100GB Available Storage.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Software (Frontend)</strong></td>
+                        <td>HTML5, CSS3, JavaScript.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Software (Backend & DB)</strong></td>
+                        <td>PHP / Node.js / Python, MySQL Database.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Environment & Tools</strong></td>
+                        <td>XAMPP / Apache Web Server, Modern Web Browser (Chrome, Edge, Firefox).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="limitations">
+            <h3>8. Resources and Limitations</h3>
+            <p><strong>Available Resources:</strong> Standard development IDE tools, database server infrastructure, internet connectivity, and simulated/target user testing data.</p>
+            <br>
+            <p><strong>System Limitations:</strong> The framework is entirely dependent on continuous internet availability and relies explicitly on the precision and accuracy of the information provided by the end-user.</p>
+        </section>
+
+        <section id="future">
+            <h3>9. Future Work</h3>
+            <p>Post-deployment roadmap upgrades include:</p>
+            <ul class="grid-list">
+                <li><strong>AI Prioritization:</strong> Smart sorting of critical complaints.</li>
+                <li><strong>Chatbot Support:</strong> Automated 24/7 instant helper tools.</li>
+                <li><strong>Mobile App:</strong> Native iOS & Android application ports.</li>
+                <li><strong>Localization:</strong> Multilingual support interfaces.</li>
+                <li><strong>Predictive Analytics:</strong> Forecasting bottleneck issues.</li>
+                <li><strong>Social Media:</strong> Direct Omni-channel complaint filing.</li>
+            </ul>
+        </section>
+
+        <section id="schedule">
+            <h3>10. Project Schedule (Gantt Chart Summary)</h3>
+            <ul class="timeline">
+                <li><strong>Week 1:</strong> Requirement Analysis & Specifications gathering</li>
+                <li><strong>Week 2:</strong> System Architecture Design</li>
+                <li><strong>Week 3:</strong> Database Schema Design & Normalization</li>
+                <li><strong>Weeks 4-5:</strong> UI Component & Frontend Development</li>
+                <li><strong>Weeks 6-7:</strong> Core API & Backend Server Development</li>
+                <li><strong>Week 8:</strong> System Integration & Testing Cycles</li>
+                <li><strong>Week 9:</strong> Production Deployment</li>
+                <li><strong>Week 10:</strong> Final Documentation and Review</li>
+            </ul>
+        </section>
+
+        <section id="conclusion">
+            <h3>11. Conclusion</h3>
+            <p>The <strong>Complaint Management Portal</strong> significantly builds upon archaic infrastructure to improve transparency, accountability, and operational efficiency. By bridging consumers and administrators using automated workflows, status tracking tools, native analytics, and direct feedback loops, it closes the loop on modern grievance redressal.</p>
+        </section>
+    </main>
+</body>
+</html>
